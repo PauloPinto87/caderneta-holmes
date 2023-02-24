@@ -1,14 +1,8 @@
+function consultar(posicao) {
+    let pistaBox = document.getElementsByClassName('pistas-box')
+    let textAreaPistaBox = pistaBox[posicao].childNodes[3]
+
+    console.log(textAreaPistaBox.classList.toggle('textarea-none'))
 
 
-function consultar() {
-    var janelaEstado = document.getElementById('pista-farmacia')
-
-    var displaySetting = janelaEstado.style.display
-
-    if (displaySetting == 'block') {
-        janelaEstado.style.display = 'none'
-    }
-    else {
-        janelaEstado.style.display = 'block'
-    }
 }
