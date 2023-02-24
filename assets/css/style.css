@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/background-wood-table.jpg');
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+}
+
+section {
+    background-color: #CC9B7A;
+
+    height: 100%;
+
+
+    padding: 20px;
+    border-radius: 15px;
+}
+
+textarea {
+    resize: none;
+    padding: 5px;
+}
+
+#anotacoes_gerais {
+    width: 100%;
+    height: 100px;
+}
+
+.container-pistas {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-pistas-box {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.pistas-box, .solucoes-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+    background-color: #cfb19c;
+
+    margin-bottom: 10px;
+
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.pistas-box textarea, .solucoes-box textarea {
+        width: 95%;
+        margin-bottom: 5px;
+        display: none;
+        margin-top: 5px;
+}
+
+.pistas-box label, .solucoes-box label {
+    background-color: #d1854f;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
