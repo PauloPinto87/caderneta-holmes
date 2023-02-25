@@ -74,9 +74,10 @@ section {
 textarea {
     resize: none;
     padding: 5px;
-    font-family: 'Victorian Regular';
+
     font-size: large;
     line-height: 15px;
+    font-family: Cursive;
 }
 
 #anotacoes_gerais {
@@ -174,6 +175,6 @@ h1 span{
     
 }
 
-.textarea-none {
+.textarea-none, .solucoes-box textarea {
     display: none;
 }
