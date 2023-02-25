@@ -4,3 +4,13 @@ function consultar(posicao, classeBox) {
 
     textAreaPistaBox.classList.toggle('textarea-none')
 }
+
+
+function limparTudo () {
+    let conteudoTextarea = document.getElementsByTagName('textarea')
+
+    for (passo = 0; passo <= conteudoTextarea.length; passo++) {
+        document.getElementsByTagName('textarea')[passo].value = ''
+        document.getElementsByTagName('textarea')[passo].classList.add('textarea-none')
+    }
+}

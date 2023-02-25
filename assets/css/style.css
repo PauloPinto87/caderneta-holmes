@@ -53,6 +53,11 @@ body {
     justify-content: center;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+}
+
 section {
     background-image: url('../img/background-sections-old-paper.jpg');
 
@@ -107,6 +112,15 @@ h1 span{
 
     font-family: 'Great Victorian Swashed';
     border-bottom: 2px solid #b1764d6e;
+}
+
+#btn-limpar-tudo {
+    margin-top: 5px;
+    align-self: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #a26214bb;
+    color: #fff;
 }
 
 .container-pistas h2 {
