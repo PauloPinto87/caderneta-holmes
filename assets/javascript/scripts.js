@@ -12,14 +12,10 @@ function limparTudo () {
     for (passo = 0; passo <= conteudoTextarea.length; passo++) {
         document.getElementsByTagName('textarea')[passo].value = ''
 
-        if (passo == 0)
+        if (passo != 0)
         {
-
-        }
-        else {
             document.getElementsByTagName('textarea')[passo].classList.add('textarea-none')
         }
-
     }
 
 }
