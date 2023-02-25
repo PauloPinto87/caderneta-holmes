@@ -175,6 +175,7 @@ h1 span{
     
 }
 
-.textarea-none, .solucoes-box textarea {
+.textarea-none, .solucoes-box textarea
+ {
     display: none;
 }

@@ -17,5 +17,4 @@ function limparTudo () {
             document.getElementsByTagName('textarea')[passo].classList.add('textarea-none')
         }
     }
-
 }
